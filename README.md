@@ -171,7 +171,9 @@ Implemented in `src/loss.py`:
   - The total loss is:
 
 
-$\mathcal{L} = w_{\text{dice}} \cdot \mathcal{L}_{\text{dice}} + w_{\text{focal}} \cdot \mathcal{L}_{\text{focal}} + w_{\text{bce}} \cdot \mathcal{L}_{\text{bce}}$
+    $$
+    \mathcal{L} = w_{\text{dice}} \cdot \mathcal{L}_{\text{dice}} + w_{\text{focal}} \cdot \mathcal{L}_{\text{focal}} + w_{\text{bce}} \cdot \mathcal{L}_{\text{bce}}
+    $$
 
   - Where:
     - Dice loss: improves region overlap quality
@@ -311,6 +313,7 @@ If you use this code or methodology in your work, please cite the original SAM p
 - Add support for larger SAM backbones such as ViT-L / ViT-H
 - Extend to multi-class and multi-organ segmentation
 - Explore alternative prompt generation strategies and multi-scale fusion structures
+
 
 
 
